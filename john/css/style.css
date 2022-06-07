@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+/* FONTS====================================================================== */
+.heebo400-14{
+	font-family: "heebo", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+}
+.heebo400-16{
+	font-family: "heebo", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.heebo400-18{
+	font-family: "heebo", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
+.heebo400-20{
+	font-family: "heebo", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+.heebo400-22{
+	font-family: "heebo", sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+.heebo500-20{
+	font-family: "heebo", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #000000;
+}
+.heebo500-24{
+	font-family: "heebo", sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+}
+.heebo500-26{
+	font-family: "heebo", sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+}
+.heebo500-30{
+	font-family: "heebo", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+}
+.heebo700-22{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 30px;
+}
+.heebo700-24{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+.heebo700-26{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 38px;
+}
+.heebo700-30{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 44px;
+}
+.heebo700-32{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+}
+.heebo700-34{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 50px;
+}
+.heebo700-44{
+	font-family: "heebo", sans-serif;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 60px;
+}
+.heebo900-16{
+	font-family: "heebo", sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+}
+.heebo900-18{
+	font-family: "heebo", sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+}
+.heebo900-44{
+	font-family: "heebo", sans-serif;
+	font-weight: 900;
+	font-size: 44px;
+}
+
+/* HEADER========================================================================== */
+*, *:after, *:before {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   transition: .5s ease-in-out;
+	text-decoration: none;
+	list-style-type: none;
+}
+body{
+	margin: 0 auto;
+   width: 100%;
+   max-width: 1152px;
+   padding: 0;
+}
+.header{
+	height: 595px;
+	max-width: 856px;
+	margin: 0 auto;
+}
+.header__nav{
+	height: 80px;
+	margin: 40px auto;
+}
+.header__nav-menu{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: flex-end;
+}
+.header__nav-menu-li{
+	margin-left: 60px;
+}
+.header__resume{
+	max-width: 100%;
+	height: 427px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.header__resume-text{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.header__resume-text-h1{
+	margin-bottom: 40px;
+}
+.header__resume-text-p2{
+	margin-bottom: 40px;
+}
+.header__resume-img{
+	margin-left: 115px;
+}
+.header__resume-button {
+	width: 208px;
+	height: 47px;
+	background-color: #EC7979;
+	text-align: center;
+	line-height: 47px;
+	vertical-align: middle;
+	border-radius: 2px;
+	border: none;
+}
+.header__resume-button-a{
+	font-family: "heebo", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: white;
+}
+/* SECTION POST------------------------------------------------------------------------------------------------------ */
+.post{
+	width: 100%;
+	height: 396px;
+	margin: 0 auto;
+	background: #EDF7FA;
+}
+.post__block{
+	width: 100%;
+	max-width: 856px;
+	height: 70px;
+	margin: 0 auto;
+}
+.post__block-head{
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.post__block-head-a{
+	color: #00A8CC;
+}
+.post__block-menu{
+	max-width: 856px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 32px;
+}
+.post__block-menu-first{
+	max-width: 418px;
+	padding: 26px 20px 7px 23px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+	border-radius: 4px;
+}
+.post__block-menu-first-h1{
+	margin-bottom: 17px;
+}
+.post__block-menu-first-h2{
+	margin-bottom: 17px;
+}
+.post__block-menu-first-h3{
+	margin-bottom: 17px;
+}
+.post__block-menu-second-h1{
+	margin-bottom: 17px;
+}
+.post__block-menu-second-h2{
+	margin-bottom: 17px;
+}
+.post__block-menu-second-h3{
+	margin-bottom: 17px;
+}
+.post__block-menu-second{
+	max-width: 418px;
+	padding: 26px 20px 7px 23px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+	border-radius: 4px;
+}
+.post__block-textcolor{
+	color: #21243D;
+}
+.post__block-span{
+	margin: auto 26px;
+}
+.main{
+	width: 100%;
+	margin: 0 auto;
+}
+.container{
+	max-width: 856px;
+	margin: 0 auto;
+}
+.container__head{
+	text-align: left;
+	height: 97px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.container__content-block1{
+	height: 206px;
+	display: flex;
+	flex-direction: row;
+}
+.middle_height{
+	line-height: 30px;
+	vertical-align: middle;
+}
+.container__content-block1-col1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container__content-block1-col2{
+	padding-left: 18px;
+}
+.container__content-block1-col2-h2{
+	display: flex;
+	flex-direction: row;
+	margin-top: 20px;
+}
+.container__content-block1-col2-h2-dash{
+	margin-left: 20px;
+}
+.container__content-block1-col2-h2-text{
+	margin-top: 25px;
+}
+.container__conte{
+	margin: 0 auto;
+	content: "";
+	display: block;
+	border: 1px solid #E0E0E0;
+
+}
